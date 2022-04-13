@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bf2f2f</color>
+    <color name="colorPrimaryDark">#F3F3F3</color>
+    <color name="excelBackgroundColor">#A8F4FAF2</color>
+    <color name="wordBackgroundColor">#F3F9FB</color>
+    <color name="pptBackgroundColor">#FBF4F2</color>
+    <color name="pdfBackgroundColor">#FFF7F7</color>
+    <color name="scannerColor">#2F70BF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_grey">#E9E9E9</color>
+    <color name="mid_grey">#CCCCCC</color>
+    <color name="grey">#C3C3C3</color>
+    <color name="dark_grey">#777777</color>
+    <color name="darker_grey">#383838</color>
+    <color name="icon_color">#FF000000</color>
+    <color name="light_greyy">#E9E9E9</color>
+    <color name="no_button">#f6e5e5</color>
+
+    <color name="primary40">#bf2f2f</color>
+    <color name="primary50">#cb4e4e</color>
+    <color name="primary80">#F4A9A9</color>
+    <color name="primary95">#f6e5e5</color>
+    <color name="primary99">#ffffff</color>
+    <color name="primary90">#f6e5e5</color>
+    <color name="dummy_color">#eef5ff</color>
+
+</resources>

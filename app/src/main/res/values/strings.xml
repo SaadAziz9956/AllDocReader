@@ -1,0 +1,190 @@
+<resources>
+
+    <string name="app_name">All Doc Reader</string>
+
+    <string name="admob_app_id">@string/AdMob_AppId</string>
+    <string name="admob_banner_id">@string/Admob_BannerId</string>
+    <string name="admob_native_advanced_id">@string/Admob_NativeAdvancedId</string>
+    <string name="admob_interstitial_id">@string/Admob_InterstitialId</string>
+
+
+    <string name="fb_interstitial_id">@string/Fb_InterstitialId</string>
+    <string name="fb_native_advanced_id">@string/Fb_NativeAdvancedId</string>
+    <string name="fb_native_banner_id">@string/Fb_Native_BannerId</string>
+    <string name="fb_banner_id">@string/Fb_BannerId</string>
+
+    <string name="mopub_banner_id">@string/Mopub_BannerId</string>
+    <string name="mopub_interstitial_id">@string/Mopub_InterstitialId</string>
+    <string name="mopup_native_banner_id">@string/Mopup_Native_BannerId</string>
+
+    <string name="info">Info</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="tools">Tools</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="size_and_time">Size and time</string>
+    ]
+    <string name="pdf">PDF</string>
+    <string name="rename">Rename</string>
+    <string name="favourite">Favourite</string>
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="share">Share</string>
+    <string name="file_name">File Name</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_to_favourite">Add to Favourite</string>
+    <string name="remove_from_favourite">Remove from Favourite</string>
+    <string name="size">Size</string>
+    <string name="format">Format</string>
+    <string name="location">Location</string>
+    <string name="pdf_tools">Pdf Tools</string>
+    <string name="image_to_pdf">Image to Pdf</string>
+    <string name="pdf_scanner">Pdf Scanner</string>
+    <string name="see_more">see more…</string>
+    <string name="merge_pdf">Merge Pdf</string>
+    <string name="folders">Folders</string>
+    <string name="error">Error</string>
+    <string name="images">Images</string>
+    <string name="swipe_to_view_next">Swipe to view next</string>
+    <string name="preview_image_to_pdf">Preview Image to Pdf</string>
+    <string name="showing_image">Show Image</string>
+
+    <string name="creating_pdf">Creating PDF</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="pdf_ext" translatable="false">.pdf</string>
+    <string name="b0_to_b10">B0 to B10</string>
+    <string name="a0_to_a10">A0 to A10</string>
+    <string name="example">Example : abc</string>
+    <string name="snackbar_name_not_blank">Name cannot be blank</string>
+    <string name="warning">Warning</string>
+    <string name="overwrite_message">There already exists a file with the same name. Do you want to overwrite?</string>
+    <string name="letter">Letter</string>
+    <string name="legal">Legal</string>
+    <string name="executive">Executive</string>
+    <string name="ledger">Ledger</string>
+    <string name="tabloid">Tabloid</string>
+
+    <array name="items">
+        <item>Open File</item>
+        <item>Delete File</item>
+        <item>Rename File</item>
+        <item>Print File</item>
+        <item>Share File</item>
+        <item>Show Details</item>
+        <item>Add Password</item>
+        <item>Remove Password</item>
+        <item>Rotate Pages</item>
+        <item>Add Watermark</item>
+    </array>
+
+    <array name="itemIds" translatable="false">
+        <item>open</item>
+        <item>delete</item>
+        <item>rename</item>
+        <item>print</item>
+        <item>e-mail</item>
+        <item>details</item>
+    </array>
+
+    <string-array name="array_page_sizes_b0_b10" translatable="false">
+        <item>B0 (1000 x 1414 mm)</item>
+        <item>B1 (707 x 1000 mm)</item>
+        <item>B2 (500 x 707 mm)</item>
+        <item>B3 (353 x 500 mm)</item>
+        <item>B4 (250 x 353 mm)</item>
+        <item>B5 (176 x 250 mm)</item>
+        <item>B6 (125 x 176 mm)</item>
+        <item>B7 (88 x 125 mm)</item>
+        <item>B8 (62 x 88 mm)</item>
+        <item>B9 (44 x 62 mm)</item>
+        <item>B10 (31 x 44 mm)</item>
+    </string-array>
+
+    <string-array name="array_page_sizes_a0_b10" translatable="false">
+        <item>A0 (841 x 1189 mm)</item>
+        <item>A1 (594 x 841 mm)</item>
+        <item>A2 (420 x 594 mm)</item>
+        <item>A3 (297 x 420 mm)</item>
+        <item>A4 (210 x 297 mm)</item>
+        <item>A5 (148 x 210 mm)</item>
+        <item>A6 (105 x 148 mm)</item>
+        <item>A7 (74 x 105 mm)</item>
+        <item>A8 (52 x 74 mm)</item>
+        <item>A9 (37 x 52 mm)</item>
+        <item>A10 (26 x 37 mm)</item>
+    </string-array>
+
+    <string-array name="fontStyles" translatable="false">
+        <item>NORMAL</item>
+        <item>BOLD</item>
+        <item>ITALIC</item>
+        <item>UNDERLINE</item>
+        <item>STRIKETHRU</item>
+        <item>BOLDITALIC</item>
+    </string-array>
+
+    <string name="a4" translatable="false">A4</string>
+    <string name="set_as_default">Set as Default</string>
+    <string name="default_page_size">DEFAULT ( %s )</string>
+    <string name="set_page_size_text">Set Page Size</string>
+    <string name="snackbar_pdfCreated">PDF created!</string>
+    <string name="snackbar_txtExtracted">Text extracted!</string>
+    <string name="snackbar_pdfselected">PDF file selected!</string>
+    <string name="snackbar_viewAction">View</string>
+    <string name="i_have_attached_pdfs_to_this_message">I have attached file(s) to this message</string>
+    <string name="pdf_type" translatable="false">application/pdf</string>
+    <string name="txt_type" translatable="false">text/*</string>
+    <string name="share_chooser">Select app to send message…</string>
+    <string name="error_path_not_found">Sorry, we are unable to access the file at this location</string>
+    <string name="open_file">Open File</string>
+    <string name="error_open_file">An error occurred while opening the file. Please try reopening</string>
+    <string name="pdf_suffix" translatable="false">_pdf</string>
+    <string name="snackbar_no_pdf_app">No app to read PDF File</string>
+    <string name="merge_file_select">Select a file</string>
+    <string name="image_scale_type">Set Image Scale Type</string>
+    <string name="stretch_image">Stretch image to fit on page</string>
+    <string name="maintain_aspect_ratio">Maintain aspect ratio of images</string>
+    <string name="converting_file">Converting File</string>
+    <string name="snackbar_folder_not_created">Error! creating application folder.</string>
+    <string name="no_file_found">No converted file found</string>
+    <string name="convert_image_to_pdf">Convert file</string>
+    <string name="selected_images">Selected Images</string>
+    <string name="done">Done</string>
+    <string name="merge_files">Merge Files</string>
+    <string name="add_files">Add files</string>
+    <string name="selected_files">Selected files</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="scanner">Scanner</string>
+    <string name="convert_to_pdf">Convert to PDF</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="no_file_found_text">No file found</string>
+    <string name="dummy_path">/storage/emulated/0/android/data/cn.wps.mode.sd_eng/</string>
+    <string name="enable_storage_permission">Enable storage permission</string>
+    <string name="access_permission">In order to scan pdf documents, allow storage permission to access your PDF documents</string>
+    <string name="go_to_settings">GO TO SETTINGS</string>
+    <string name="save_pdf">Save PDF</string>
+    <string name="required_permissions">Required Permissions</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="no_files_found">No file found</string>
+    <string name="todo">TODO</string>
+    <string name="ad">Ad</string>
+    <string name="word">Word</string>
+    <string name="ppt">Power Point</string>
+    <string name="excel">Excel</string>
+    <string name="delete_file">Delete File</string>
+    <string name="are_you_sure_you_want_to_delete_the_file">Are you sure you want to delete the file</string>
+    <string name="exit">Exit</string>
+    <string name="are_you_sure_you_want_to_exit_the_app">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="full_screen">Full Screen</string>
+
+</resources>

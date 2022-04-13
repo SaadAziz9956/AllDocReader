@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad">Ad</string>
+    <string name="delete_file">Delete File</string>
+    <string name="are_you_sure_you_want_to_delete_the_file">Are you sure you want to delete the file</string>
+    <string name="exit">Exit</string>
+    <string name="are_you_sure_you_want_to_exit_the_app">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

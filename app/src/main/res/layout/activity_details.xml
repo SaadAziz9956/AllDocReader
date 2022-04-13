@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_greyy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/no_file_found" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/ralewaysemibold"
+                android:text="@string/details"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_back"
+                app:layout_constraintStart_toEndOf="@id/iv_back"
+                app:layout_constraintTop_toTopOf="@+id/iv_back" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/name_view"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mid_grey"
+        app:layout_constraintStart_toStartOf="@id/iv_file"
+        app:layout_constraintTop_toBottomOf="@id/iv_file"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_file"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/excel_icon"
+        app:layout_constraintBottom_toTopOf="@id/name_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:contentDescription="@string/no_file_found_text" />
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/file_name"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/iv_file"
+        app:layout_constraintTop_toTopOf="@id/iv_file" />
+
+    <View
+        android:id="@+id/size_view"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mid_grey"
+        app:layout_constraintStart_toStartOf="@id/tv_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_size" />
+
+    <TextView
+        android:id="@+id/tv_size_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/size"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/tv_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_view"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textSize="15sp"
+        android:text="@string/size"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/size_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_size_title" />
+
+    <View
+        android:id="@+id/format_view"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mid_grey"
+        app:layout_constraintStart_toStartOf="@id/tv_format"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_format"/>
+
+    <TextView
+        android:id="@+id/tv_format_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/format"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/tv_format"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/size_view"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textSize="15sp"
+        android:text="@string/pdf"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/format_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_format_title" />
+
+    <View
+        android:id="@+id/location_view"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mid_grey"
+        app:layout_constraintStart_toStartOf="@id/tv_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_location" />
+
+    <TextView
+        android:id="@+id/tv_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/location"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/tv_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/format_view"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="15sp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:text="@string/dummy_path"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/location_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_location_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
