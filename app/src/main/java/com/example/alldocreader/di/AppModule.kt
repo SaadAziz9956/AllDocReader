@@ -4,7 +4,7 @@ import android.content.Context
 import com.example.alldocreader.MyApplication
 import com.example.alldocreader.helper.CheckPermission
 import com.example.alldocreader.helper.PathUtil
-import com.example.alldocreader.room.ExcelDatabase
+import com.example.alldocreader.room.AllDocDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -28,8 +28,8 @@ object AppModule {
     @Provides
     fun providesRoomDb(
         @ApplicationContext context: Context
-    ): ExcelDatabase {
-        return ExcelDatabase.getDbInstance(context)
+    ): AllDocDatabase {
+        return AllDocDatabase.getDbInstance(context)
     }
 
     @Singleton

@@ -1,6 +1,6 @@
 package com.example.alldocreader.repository
 
-import com.example.alldocreader.room.dao.ExcelDao
+import com.example.alldocreader.room.dao.DocsDao
 import com.example.alldocreader.room.entity.FilesEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -8,7 +8,7 @@ import kotlinx.coroutines.withContext
 import timber.log.Timber
 
 class RoomDBRepository(
-    private var pdfDao: ExcelDao,
+    private var pdfDao: DocsDao,
 ) {
 
     fun getAllFiles(): Flow<List<FilesEntity>> {

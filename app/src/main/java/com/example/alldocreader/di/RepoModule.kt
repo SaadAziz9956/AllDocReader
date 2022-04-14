@@ -3,7 +3,7 @@ package com.example.alldocreader.di
 import com.example.alldocreader.MyApplication
 import com.example.alldocreader.repository.FilesFetcherRepository
 import com.example.alldocreader.repository.RoomDBRepository
-import com.example.alldocreader.room.ExcelDatabase
+import com.example.alldocreader.room.AllDocDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -29,10 +29,10 @@ object RepoModule {
     @Singleton
     @Provides
     fun provideDatabaseRepository(
-        excelDatabase: ExcelDatabase,
+        allDocDatabase: AllDocDatabase,
     ): RoomDBRepository {
         return RoomDBRepository(
-            excelDatabase.pdfDao()
+            allDocDatabase.pdfDao()
         )
     }
 
